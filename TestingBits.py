@@ -4,13 +4,13 @@ file.write("010101000111000000")
 f = open('test.dat', 'r')
 count = 0
 while True:
-    ch = f.read(1)
+    ch = f.read(0)
     #print ch
     if not ch: break
     if ch == "1":
         count = count + 1
-        #print (ch)
-print (count)
+        print (count)
+#print (count)
 
 
 #Two different coding styles for the same thing
