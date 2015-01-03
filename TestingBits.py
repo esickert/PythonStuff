@@ -7,7 +7,7 @@ while True:
     ch = f.read(1)
     #print ch
     if not ch: break
-    if ch == "0":
+    if ch == "1":
         count = count + 1
         #print (ch)
 print (count)
