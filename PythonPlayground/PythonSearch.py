@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+#<<<<<<< HEAD
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
@@ -10,7 +10,7 @@ elem.send_keys("pycon")
 elem.send_keys(Keys.RETURN)
 assert "No results found." not in driver.page_source
 driver.close()
-=======
+#=======
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
@@ -22,4 +22,4 @@ elem.send_keys("pycon")
 elem.send_keys(Keys.RETURN)
 assert "No results found." not in driver.page_source
 driver.close()
->>>>>>> 1be262a1bd8f7fa6f16bc01e4b4a9e56e64631db
+#>>>>>>> 1be262a1bd8f7fa6f16bc01e4b4a9e56e64631db
