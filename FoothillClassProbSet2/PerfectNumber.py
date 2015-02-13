@@ -19,7 +19,7 @@ def isItPurrfect(number):
     if (purrFect(number) == True):
         print(number, " is a purrrrfect number")
     else: 
-        print(number," is a dude  :-( ")
+        print(number," is a dud!  :-( ")
 
 number = getMeANumber()
 isItPurrfect(number)
