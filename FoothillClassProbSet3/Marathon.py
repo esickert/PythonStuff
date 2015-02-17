@@ -1,3 +1,6 @@
+# This was assignment 3 in the java class at Foothill College. The java
+#  program is under JavaStuff/FoothillCollege/ProblemSet3  
+
 def printList(names, times):
 	print("Name:", "		","Time:")
 	print("*************************")
@@ -43,6 +46,6 @@ index = bestTime(names, times)
 print(names[index], "has the best time of", times[index], "minutes");
 index = secondBestTime(names, times)
 print(names[index], "has the second best time of ", times[index], " minutes");
-print()
+print() # this makes the output clearer as it drops the command prompt down
 
 
