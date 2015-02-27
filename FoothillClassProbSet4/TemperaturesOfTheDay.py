@@ -37,8 +37,10 @@ temperature = getInput(temperature);
 print("The list is : ",temperature);
 print("Thank you...please wait!");
 time.sleep(5);                   # pauses the application for 5 seconds 
-average = (getAverage(getSum(temperature)));
-getHottestDays(temperature,average);
+#average = (getAverage(getSum(temperature)));  #function getAverage is now
+#                                              being passed as a parameter of
+#                                              getHottestDays
+getHottestDays(temperature,getAverage(getSum(temperature)));
 
 #temps.remove(2)             #this removes elements in list!!!!!!!!!!!!!
 
