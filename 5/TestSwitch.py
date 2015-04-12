@@ -9,6 +9,6 @@ elif n == 'B' or n == 'C':
     score = score + 1;
     print (n);
     print (score);
-else print ("Wrong input")
+else: print ("Wrong input")
 
 
