@@ -1,3 +1,6 @@
+print("Please enter a word all in caps:");
+n = input();
+print(n)
 n = input("Please enter a word all in capitals:")
 print "The word is " + n
 word = list(n)  #converts the string into a list of chars
@@ -26,7 +29,7 @@ while n != "quit":      #this will loop until user types 'quit'
             score = score + 8;
 #            print("line 38 score is " + str(score));
         elif word[i] == 'Q' or word[i] == 'Z':
-            score = score + 10;
+            score = score + 10;word
 #            print("line 41 score is " + str(score));
         else:
             print ("Wrong input")
