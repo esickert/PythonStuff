@@ -1,8 +1,8 @@
-print("Please enter a word all in caps:");
-n = input();
-print(n)
+#print("Please enter a word all in caps:");
+#n = input();
+#print(n)
 n = input("Please enter a word all in capitals:")
-print ("The word is " + n)TEST
+print ("The word is " + n)
 word = list(n)  #converts the string into a list of chars
 score = 0;
 while n != "quit":      #this will loop until user types 'quit'
