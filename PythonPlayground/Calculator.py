@@ -1,4 +1,6 @@
-from Tkinter import *
+#https://docs.python.org/3/library/tkinter.html#module-tkinter
+
+from tkinter import *
 from math import *
 def evaluate(event):
     res.configure(text = "Answer: " + str(eval(entry.get())))

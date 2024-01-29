@@ -7,4 +7,4 @@ def factorial(n):
         print("intermediate result for ", n, " * factorial(" ,n-1, "): ",res)
         return res	
 
-print(factorial(4));
+print(factorial(7));
