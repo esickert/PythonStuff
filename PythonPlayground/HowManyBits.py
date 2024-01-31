@@ -4,7 +4,7 @@ import os
 
 f = open('test.dat','w')
 for x in range(0, 3):
-    f.write("1110011001100100001")
+    f.write("11100110011001")
 
 f = open('test.dat', 'r')
 count = 0
