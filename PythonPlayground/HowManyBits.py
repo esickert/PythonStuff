@@ -1,10 +1,13 @@
+#*****************************************************************
+#*****************************************************************
+#Not sure what this does!!!!!!!!!!!!!!!!!!!!!!!
 import os
 # subprocess permits system commands to be called from within the script
 #import subprocess
 
 f = open('test.dat','w')
 for x in range(0, 3):
-    f.write("11100110011001")
+    f.write("01010101010")
 
 f = open('test.dat', 'r')
 count = 0

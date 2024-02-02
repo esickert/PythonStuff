@@ -1,3 +1,6 @@
+#***********************************************************************************
+#not sure what this does besides to draw a rectangle
+#***********************************************************************************
 from swampy.TurtleWorld import *
 
 world = TurtleWorld()
