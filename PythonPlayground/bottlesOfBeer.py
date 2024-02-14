@@ -1,4 +1,5 @@
 import unittest
+import os
 #****************************************************************************************
 #for i in range(4,0,-1):
 #    print str(i) + " bottles of beer on the wall, " + str(i -1) + " Bottles of beer"
@@ -8,5 +9,16 @@ while i < 7:
     print (str(i) + " bottles of beer on the wall, " + str(i - 1) + " bottles of beer")
     i = i + 1  
 #while i < 4:
-#    print ("Hello")
+    print ("Hello")
 #    i = i + 1
+# import OS module
+
+# Get the list of all files and directories
+
+path = ("//")
+print("Prints contents of " +  path);
+print(path);
+dir_list = os.listdir(path)
+print("Files and directories in '", path, "' :")
+# prints all files
+print(dir_list)
