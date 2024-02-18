@@ -14,7 +14,9 @@ while i < 7:
 #**********************************************************************************
 # import OS module
 # Get the list of files and directories
-os.system('ls');
+os.system('pwd')
+#os.system()
+os.system('ls')
 path = ("//home/esickert")
 print("Prints contents of " +  path);
 print(path);
