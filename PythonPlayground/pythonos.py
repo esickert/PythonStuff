@@ -3,10 +3,10 @@ import os
 # Get the list of files and directories
 os.system('pwd')
 os.system('ls')
-path = ("//home/esickert")
-print("Prints contents of " +  path);
-print(path);
-dir_list = os.listdir(path)
-print("Files and directories in '", path, "' :")
+root_dir = ("//home/esickert")
+print("Prints contents of " + root_dir );
+print(root_dir);
+dir_list = os.listdir(root_dir)
+print("Files and directories in '", root_dir, "' :")
 # prints all files
 print(dir_list)
