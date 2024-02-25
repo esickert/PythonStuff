@@ -12,16 +12,18 @@ print("Files and directories in '", root_dir, "' :")
 print(dir_list)
 
 #****************************************************************
-from selenium import webdriver
-driver_path = "//SeleniumDrivers//chromedriver
+#from selenium import webdriver
+#?????????
+import webdriver
+driver_path = "//SeleniumDrivers//chromedriver"
 driver_path = "path/to/chromedriver.exe"
 driver = webdriver.Chrome(executable_path=driver_path)
 #*********************************************************
 
- from selenium import webdriver
- driver_path = "path/to/chromedriver.exe"
- driver = webdriver.Chrome(executable_path=driver_path)
- driver.get("https://www.google.com/")
- search_box = driver.find_element_by_name("q")
- search_box.send_keys("Python")
- search_box.submit()
+from selenium import webdriver
+driver_path = "path/to/chromedriver.exe"
+driver = webdriver.Chrome(executable_path=driver_path)
+driver.get("https://www.google.com/")
+search_box = driver.find_element_by_name("q")
+search_box.send_keys("Python")
+search_box.submit()
