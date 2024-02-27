@@ -1,4 +1,4 @@
- # import OS module
+# import OS module
 import os
 # Get the list of files and directories
 os.system('pwd')
@@ -11,11 +11,11 @@ print("Files and directories in '", root_dir, "' :")
 # prints all files
 print(dir_list)
 
-#****************************************************************
-#from selenium import webdriver
+#*********************************************************
+from selenium import webdriver
 #?????????
 import webdriver
-driver_path = "//SeleniumDrivers//chromedriver"
+driver_path = "//SeleniumDrivers//"
 driver_path = "path/to/chromedriver.exe"
 driver = webdriver.Chrome(executable_path=driver_path)
 #*********************************************************
