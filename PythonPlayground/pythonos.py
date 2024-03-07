@@ -1,8 +1,9 @@
-# import OS module
+#import OS module
 import os
+#import webdriver
 # Get the list of files and directories
 os.system('pwd')
-os.system('ls')
+#os.system('ls')
 root_dir = ("//home/esickert")
 print("Prints contents of " + root_dir );
 print(root_dir);
@@ -11,7 +12,7 @@ print("Files and directories in '", root_dir, "' :")
 # prints all files
 print(dir_list)
 
-#**********************************************************
+#********************************************************
 from selenium import webdriver
 #?????????
 import webdriver
@@ -20,7 +21,7 @@ driver_path = "path/to/chromedriver.exe"
 driver = webdriver.Chrome(executable_path=driver_path)
 #*********************************************************
 
-from selenium import webdriver
+#from selenium import webdriver
 driver_path = "path/to/chromedriver.exe"
 driver = webdriver.Chrome(executable_path=driver_path)
 driver.get("https://www.google.com/")
