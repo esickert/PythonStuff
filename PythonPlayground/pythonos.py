@@ -12,9 +12,11 @@ print("Files and directories in '", root_dir, "' :")
 # prints all files
 print(dir_list)
 
-#***********************************************
-from selenium import webdriver
+print("*********************************************")
+#from selenium import webdriver
 #?????????
+print("HELP HELP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+print("this tries to use selenium but does not work!!!!!!")
 import webdriver
 driver_path = "//SeleniumDrivers//"
 driver_path = "path/to/chromedriver.exe"
