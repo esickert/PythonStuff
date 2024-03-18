@@ -8,7 +8,7 @@ from tkinter import *
 def show_entry_fields():     
     print("First Name: %s\nLast Name: %s" % (e1.get(), e2.get()))
     # python 3.4 likes parentheses used in print statements
-    print ("Go fuck yourself")   
+    #print ("Go fuck yourself")
   
 
 master = Tk()
