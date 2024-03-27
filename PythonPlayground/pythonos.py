@@ -12,7 +12,7 @@ print("Files and directories in '", root_dir, "' :")
 # prints all files
 print(dir_list)
 
-print("******************************************")
+print("*********************************************")
 #from selenium import webdriver
 #?????????
 print("HELP HELP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
