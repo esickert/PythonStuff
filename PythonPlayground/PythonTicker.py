@@ -1,7 +1,8 @@
 import time
-
+#***********************************************************
 print("SPAM SPAM SPAM SPAM SPAM SPAM SPAM")
-#this had python 2 errors, converted to python 3
+#this had python 2 errors, converted to
+# python 3
 input('Press the <ENTER> key to continue')
 for x in \
 range(5, 11):  #xrange no longer used in python3
