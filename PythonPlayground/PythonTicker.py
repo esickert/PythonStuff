@@ -1,5 +1,5 @@
 import time
-#***********************************************************
+#******************************************************
 print("SPAM SPAM SPAM SPAM SPAM SPAM SPAM")
 #this had python 2 errors, converted to
 # python 3
