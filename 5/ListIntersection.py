@@ -15,7 +15,7 @@ for i in range (0, len(numList1)):
     numList1[i] = randint(1, 20)
 for i in range(0, len(numList2)):
     numList2[i] = randint(1,20)
-#######################################################################
+print("###############################################################")
 #To iterate over a sequence means to visit each element of the sequence,
 # and do some operation for each element. In Python, we say that a value
 # is an iterable when your program can iterate over it. In short,
