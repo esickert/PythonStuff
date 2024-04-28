@@ -3,7 +3,7 @@ from tkinter import *
 #***********************************************
 #in python3 its tkinter with a small t
 #in python2 it's a large T as in Tkinter
-#***********************************************
+#**********************************************
 
 def show_entry_fields():     
     print("First Name: %s\nLast Name: %s" % (e1.get(), e2.get()))
