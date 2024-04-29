@@ -9,6 +9,6 @@ range(5, 11):  #xrange no longer used in python3
   print ("Monty Python's Flying Circus")
   time.sleep(2) 
 time.sleep(5.5) 
-print ("That's all folks!!");
+print ("And now for something completly different!!");
 
 
