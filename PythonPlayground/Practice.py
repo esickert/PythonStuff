@@ -15,3 +15,5 @@ else:
 
 print("************************************")
 print("FIBINACCI SEQUENCE")
+for i in range (10):
+    print(i + 2)
