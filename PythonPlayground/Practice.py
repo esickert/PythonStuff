@@ -1,19 +1,21 @@
+import unittest
+class TestingPython(unittest.TestCase):
 #print("This is a practice file");
-word = "aaaaa"
-back = "aaaaa"[::-1]
 
-#languages = ['Swift', 'Python', 'Go']
+    def test_palindrome(self):
+        word = "aaaaa"
+        back = "aaaaa"[::-1]
+        if word == back:
+            print("This is a Palindome")
+        else:
+            print("NOT A PALINDROME")
 
-# access elements of the list one by one
-#for i in word:
- #   print(i,end="")
-print("PALINDROME");
-if word == back:
-    print("Palindome")
-else:
-    print("NOT A PALINDROME");
+#("************************************")
 
-print("************************************")
-print("FIBINACCI SEQUENCE")
-for i in range (5):
-    print  (i + 3);
+    def test_fibinacci(self):
+        variable = "abcdef[::-1]"
+        if variable != variable:
+            print("FIBINACCI SEQUENCE")
+        else:
+            print("end of else")
+
