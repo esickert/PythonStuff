@@ -6,18 +6,25 @@ class TestingPython(unittest.TestCase):
         word = "aaaaa"
         back = "aaaaa"[::-1]
         if word == back:
-            print("This is a Palindome")
+            print("This is a Palindrome\n")
         else:
-            print("NOT A PALINDROME")
+            print("NOT A PALINDROME\n")
 
 #("************************************")
 
     def test_fibinacci(self):
-        variable = "abcdef[::-1]"
-        if variable != variable:
-            print("FIBINACCI SEQUENCE")
-        else:
-            print("end of else")
+        # Fibonacci Series in Python Using For Loop
+        # initialize two variables, with value 0
+        a, b = 0, 1
+        series_length = 10
+        print(a, b, end=' ')
+        for i in range(series_length):
+            c = a + b
+            print(c, end=' ')
+            a = b
+            b = c
+#****************************************
+
 
 
 
