@@ -3,12 +3,12 @@ class TestingPython(unittest.TestCase):
 #print("This is a practice file");
 
     def test_palindrome(self):
-        word = "aaaaa"
+        word = "aaaa"
         back = "aaaaa"[::-1]
         if word == back:
-            print("This is a Palindrome\n")
+            print("\nThis is a Palindrome")
         else:
-            print("NOT A PALINDROME\n")
+            print("\nNOT A PALINDROME")
 
 #("************************************")
 
