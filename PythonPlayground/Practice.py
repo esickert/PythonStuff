@@ -25,6 +25,11 @@ class TestingPython(unittest.TestCase):
             b = c
 #*************************************
 
+    def test_fibrec(self):
+        i = 0
+        for i in range(6):
+            print(i)
+
 
 
 
