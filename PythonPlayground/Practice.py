@@ -25,12 +25,18 @@ class TestingPython(unittest.TestCase):
             b = c
 #*************************************
 
-    def test_fibrec(self):
-        a = 0;
+ #   def test_fibrec(self):
+ #       a = 0;
         b = 1;
         c = a + b;
-        for c  in range(3):
-            print("practice recursion")
+
+  #      def fibrec(c):
+  #      if c == 1:
+  #          return 1
+  #      for c  in range(3):
+  #          print("practice recursion")
+
+   #         fibrec()
 
  #***********************************
 
