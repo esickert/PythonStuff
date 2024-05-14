@@ -26,8 +26,10 @@ class TestingPython(unittest.TestCase):
 #*************************************
 
     def test_fibrec(self):
-        i = 0
-        for i in range(6):
+        a = 0;
+        b = 1;
+        c = a + b;
+        for c  in range(3):
             print("practice recursion")
 
  #***********************************
