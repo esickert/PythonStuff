@@ -23,7 +23,7 @@ class TestingPython(unittest.TestCase):
             print(c, end=' ')
             a = b
             b = c
-#*************************************
+#*********************************
 
  #   def test_fibrec(self):
  #       a = 0;
