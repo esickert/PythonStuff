@@ -24,7 +24,7 @@ class TestingPython(unittest.TestCase):
             a = b
             b = c
 #*********************************
-
+"""  this blocks out a block of code in Python
  #   def test_fibrec(self):
  #       a = 0;
         b = 1;
@@ -37,8 +37,24 @@ class TestingPython(unittest.TestCase):
   #          print("practice recursion")
 
    #         fibrec()
-
+"""
  #***********************************
+# Python program to display the Fibonacci sequence
+    def test_recur_fibo(self):
+        if self <= 1:
+         return self
+        else:
+            return(test_recur_fibo(self - 1) + test_recur_fibo(self - 2))
+
+    nterms = 10
+
+    # check if the number of terms is valid
+    if nterms <= 0:
+        print("Plese enter a positive integer")
+    else:
+        print("Fibonacci sequence:")
+        for i in range(nterms):
+            print(Test_recur_fibo(i))
 
 
 
