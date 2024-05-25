@@ -37,8 +37,9 @@ class TestingPython(unittest.TestCase):
   #          print("practice recursion")
 
    #         fibrec()
-"""
+
  #***********************************
+ """
 # Python program to display the Fibonacci sequence
     def test_recur_fibo(self):
         if self <= 1:
@@ -47,14 +48,16 @@ class TestingPython(unittest.TestCase):
             return(test_recur_fibo(self - 1) + test_recur_fibo(self - 2))
 
     nterms = 10
-
     # check if the number of terms is valid
     if nterms <= 0:
         print("Plese enter a positive integer")
     else:
         print("Fibonacci sequence:")
         for i in range(nterms):
-            print(Test_recur_fibo(i))
+            print(test_recur_fibo(i)+test_recur_fibo(i))
+
+
+
 
 
 
