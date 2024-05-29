@@ -24,7 +24,7 @@ class TestingPython(unittest.TestCase):
             a = b
             b = c
 #*********************************
-"""
+#"""
 def test_recur_fibo(self):
     if self <= 1:
         return self
@@ -40,7 +40,7 @@ nterms = 11
         print("Fibonacci sequence:")
     for i in range(nterms):
         print(test_recur_fibo(i), "", end="", flush=True)
-"""
+#"""
 
 
 
