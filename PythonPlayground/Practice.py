@@ -24,14 +24,14 @@ class TestingPython(unittest.TestCase):
             a = b
             b = c
 #*********************************
-#"""
-#def test_recur_fibo(self):
-#    if self <= 1:
-#        return self
+"""
+def test_recur_fibo(self):
+    if self <= 1:
+   print("LINE 10")
 #    else:
 #        return(test_recur_fibo(self - 1) + test_recur_fibo(self - 2))
 
-nterms = 11
+nterms = 0
 
 # check if the number of terms is valid
 #    if nterms <= 0:
