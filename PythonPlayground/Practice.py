@@ -25,22 +25,27 @@ class TestingPython(unittest.TestCase):
             b = c
 #*********************************
 """
+self = 1
+nterms = 0
+print("nterms")
+
 def test_recur_fibo(self):
-    if self <= 1:
-   print("LINE 10")
-#    else:
-#        return(test_recur_fibo(self - 1) + test_recur_fibo(self - 2))
+    if self == 1
+   print("self")
+ #   else:
+ #   return(test_recur_fibo(self - 1) + test_recur_fibo(self - 2))
 
 nterms = 0
+print("nterms")
 
 # check if the number of terms is valid
-#    if nterms <= 0:
+    if nterms <= 0:
         print("Plese enter a positive integer")
     else:
         print("Fibonacci sequence:")
     for i in range(nterms):
         print(test_recur_fibo(i), "", end="", flush=True)
-#"""
+"""
 
 
 
