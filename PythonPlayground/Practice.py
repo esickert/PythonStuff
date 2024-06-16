@@ -10,7 +10,7 @@ class TestingPython(unittest.TestCase):
         else:
             print("\nNOT A PALINDROME")
 
-#*****************************
+#*******************************
 
     def test_fibinacci(self):
         # Fibonacci Series in Python Using For Loop
