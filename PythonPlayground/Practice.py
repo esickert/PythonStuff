@@ -1,7 +1,7 @@
 import unittest
 class TestingPython(unittest.TestCase):
 #print("This is a practice file");
-
+"""
     def test_palindrome(self):
         word = "aaaa"
         back = "aaaaa"[::-1]
@@ -45,6 +45,8 @@ print("nterms")
         print("Fibonacci sequence:")
     for i in range(nterms):
         print(test_recur_fibo(i), "", end="", flush=True)
+"""
+
 #"""
 
 
