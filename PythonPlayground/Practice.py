@@ -24,7 +24,7 @@ class TestingPython(unittest.TestCase):
             a = b
             b = c
 #*********************************
-#"""
+"""
 self = 1
 nterms = 0
 print("nterms")
@@ -47,7 +47,7 @@ print("nterms")
         print(test_recur_fibo(i), "", end="", flush=True)
 """
 
-#"""
+
 
 
 
