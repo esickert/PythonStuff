@@ -1,7 +1,7 @@
 import unittest
 class TestingPython(unittest.TestCase):
 #print("This is a practice file");
-"""
+
     def test_palindrome(self):
         word = "aaaa"
         back = "aaaaa"[::-1]
