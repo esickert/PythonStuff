@@ -10,7 +10,7 @@ class TestingPython(unittest.TestCase):
         else:
             print("\nNOT A PALINDROME")
 
-#******************************** 
+#********************************
 
     def test_fibinacci(self):
         # Fibonacci Series in Python Using For Loop
@@ -46,7 +46,7 @@ print("nterms")
     for i in range(nterms):
         print(test_recur_fibo(i), "", end="", flush=True)
 """
-print("Let's develope a constructor for python!!!!!")
+print("Develope a constructor for python!!!!!")
 
 
 
