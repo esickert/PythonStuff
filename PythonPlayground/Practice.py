@@ -23,7 +23,7 @@ class TestingPython(unittest.TestCase):
             print(c, end=' ')
             a = b
             b = c
-#********************************* 
+#*********************************
 """
 self = 1
 nterms = 0
@@ -46,7 +46,8 @@ print("nterms")
     for i in range(nterms):
         print(test_recur_fibo(i), "", end="", flush=True)
 """
-print("Develope a constructor in python!!!!!")
+print("Develope and use constructors in python scripts!!!!!")
+print("Develope scripts that use SELENIUM in python  ")
 
 
 
