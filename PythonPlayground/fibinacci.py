@@ -10,7 +10,7 @@ nterms = 11
 
 # check if the number of terms is valid
 if nterms <= 0:
-   print("Plese enter a positive integer ......")
+   print("Plese enter a positive integer :")
 else:
    print("Fibonacci sequence:")
    for i in range(nterms):
