@@ -46,8 +46,9 @@ print("nterms")
     for i in range(nterms):
         print(test_recur_fibo(i), "", end="", flush=True)
 #********************************************************
-print("Develope and use constructors in python scripts!!!!!")
 """
+print("Develope and use constructors in python scripts!!!!!")
+
 
 
 
