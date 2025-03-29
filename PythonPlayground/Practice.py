@@ -4,13 +4,13 @@ class TestingPython(unittest.TestCase):
 
     def test_palindrome(self):
         word = "aaaa"
-        back = "aaaaa"[::-1]
+        back = "aaaa"[::-1]
         if word == back:
             print("\nThis is a Palindrome")
         else:
             print("\nNOT A PALINDROME")
-
-#***********************************
+"""
+#**********************************
 
     def test_fibinacci(self):
         # Fibonacci Series in Python Using For Loop
