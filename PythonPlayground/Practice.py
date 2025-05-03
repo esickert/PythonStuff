@@ -3,7 +3,7 @@ class TestingPython(unittest.TestCase):
 #print("This is a practice file");
 
     def test_palindrome(self):
-        word = "aaaa"
+        word = "aaa"
         back = "aaaa"[::-1]
         if word == back:
             print("\nThis is a Palindrome")
