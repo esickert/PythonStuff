@@ -9,9 +9,9 @@ class TestingPython(unittest.TestCase):
             print("\nThis is a Palindrome")
         else:
             print("\nNOT A PALINDROME")
-"""
-#**********************************
 
+#**********************************
+"""
     def test_fibinacci(self):
         # Fibonacci Series in Python Using For Loop
         # initialize two variables, with value 0
@@ -23,7 +23,8 @@ class TestingPython(unittest.TestCase):
             print(c, end=' ')
             a = b
             b = c
-#*********************************
+#**********************************
+"""
 self = 1
 nterms = 0
 print("nterms")
@@ -44,13 +45,13 @@ print("nterms")
         print("Fibonacci sequence:")
     for i in range(nterms):
         print(test_recur_fibo(i), "", end="", flush=True)
+        
 #***************************************************
-"""
 print("Develope and use constructors in python scripts!!!!!")
 
 #**************************************************
 print("constructor example")
-
+print("THIS DOESN'T WORK!!!!!!!!!!!")
 
 
 
