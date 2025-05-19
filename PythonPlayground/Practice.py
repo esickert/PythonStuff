@@ -48,6 +48,11 @@ print("nterms")
 """
 print("Develope and use constructors in python scripts!!!!!")
 
+#**************************************************
+print("constructor example")
+
+
+
 
 
 
