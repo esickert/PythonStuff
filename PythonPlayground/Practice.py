@@ -10,4 +10,4 @@ class TestingPython(unittest.TestCase):
         else:
             print("\nThis is NOT A PALINDROME")
 #*********************************
-print("#This is fibinacci recursive")
+print("#This is a fibinacci recursive method")
