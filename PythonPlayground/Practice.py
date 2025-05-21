@@ -4,11 +4,10 @@ class TestingPython(unittest.TestCase):
 
     def test_palindrome(self):
         word = "aaa"
-        back = "aaa"[::-1]
+        back = "aa"[::-1]
         if word == back:
             print("\nThis is a Palindrome")
         else:
-            print("\nNOT A PALINDROME")
-
+            print("\nThis is NOT A PALINDROME")
 #********************************
-#This is fibinacci recursive
+print("#This is fibinacci recursive")
