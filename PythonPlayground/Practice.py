@@ -10,4 +10,23 @@ class TestingPython(unittest.TestCase):
         else:
             print("\nThis is NOT A PALINDROME")
 #************************************
-print("This is a fibinacci recursive method")
+
+print("This is a fibinabici recursive method")
+n=1;
+print(n);
+def fibonacci_recursive(n):
+
+    if n <= 0:
+        return 0
+        print("0")
+    elif n == 1:
+        return 1
+        print("1")
+    else:
+        return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
+    fibonacci_recursive(n)
+
+
+    #print(fibonacci_recursive(10));
+
+#fibonacci_recursive(10)
