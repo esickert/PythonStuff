@@ -10,15 +10,15 @@ class TestingPython(unittest.TestCase):
             print("line 10")
         else:
             print("\nThis is NOT A PALINDROME")
-            print("line 13");
-#**********************************
+            print("line 13", n);
+#********************************
 
 print("This is a fibinabici recursive method")
 n=1;
-print(n);
+print("line 18", n);
 """
 def fibonacci_recursive(n):
-
+for n in range(0,10):
     if n <= 0:
         return 0
         print("0")
