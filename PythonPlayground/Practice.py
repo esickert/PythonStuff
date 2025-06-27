@@ -11,7 +11,7 @@ class TestingPython(unittest.TestCase):
         else:
             print("\nThis is NOT A PALINDROME")
             print("line 13", n);
-
+"""
 
             #!/usr/bin/env python
 
@@ -19,7 +19,7 @@ from selenium import webdriver
 print("Selenium stuff")
 browser = webdriver.Firefox()
 browser.get('http://www.ubuntu.com/')
-"""
+
 #*****************************
 def fibinacci:
     print("start here!!!"
