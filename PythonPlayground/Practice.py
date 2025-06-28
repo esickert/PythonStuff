@@ -15,35 +15,6 @@ class TestingPython(unittest.TestCase):
 
             #!/usr/bin/env python
 
-from selenium import webdriver
-print("Selenium stuff")
-browser = webdriver.Firefox()
-browser.get('http://www.ubuntu.com/')
-
-#*****************************
-def fibinacci:
-    print("start here!!!"
-
-print("This is a fibinabici recursive method");
-
-    fibinacci(self)
-
-print("line 18", n);
-
-def fibonacci_recursive(n):
- for n in range(0,10):
-    if n <= 0:
-        return 0
-        print("0")
-    elif n == 1:
-        return 1
-        print("1")
-    else:
-        return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
-    fibonacci_recursive(n)
-
-
-    #print(fibonacci_recursive(10));
 
 #fibonacci_recursive(10)
 """
