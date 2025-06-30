@@ -13,7 +13,7 @@ class TestingPython(unittest.TestCase):
             print("This is so FUCKED!!!!")
            #   test_palindrome
 
-        def test(self):
+    def testprint(self):
             print("line 16 testing"
 
 
