@@ -12,20 +12,3 @@ class TestingPython(unittest.TestCase):
             print("\nThis is NOT A PALINDROME")
             print("This is so FUCKED!!!!")
            #   test_palindrome
-
-    def testprint(self):
-            print("line 16 testing"
-
-
-"""
-   
-
-
-
-
-            #!/usr/bin/env python
-for x in range(3):
-  print(x)
-
-#fibonacci_recursive(10)
-"""
