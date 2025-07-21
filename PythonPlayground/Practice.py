@@ -10,7 +10,6 @@ class TestingPython(unittest.TestCase):
             print("line 10")
         else:
             print("\nThis is NOT A PALINDROME")
-            print("This is so FUCKED!!!!")
-           #   test_palindrome
+#  end of test_palindrome
 #**********************************************
 print("fibinacci sequence- line 16");
