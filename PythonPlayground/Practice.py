@@ -13,4 +13,4 @@ class TestingPython(unittest.TestCase):
 #  end of test_palindrome
 #**********************************************
     for i in range(1, 11):
-        print("fibinacci sequence- line 16  IT WORKED!!!");
+        print("fibinacci sequence- line 16  IT WORKED i!!!", i);
