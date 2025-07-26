@@ -1,6 +1,6 @@
 import unittest
 class TestingPython(unittest.TestCase):
-#print("This is a practice file");
+    print("This is a practice file");
 
     def test_palindrome(self):
         word = "aaa"
@@ -12,4 +12,5 @@ class TestingPython(unittest.TestCase):
             print("\nThis is NOT A PALINDROME")
 #  end of test_palindrome
 #**********************************************
-print("fibinacci sequence- line 16");
+    for i in range(1, 11):
+        print("fibinacci sequence- line 16  IT WORKED!!!");
