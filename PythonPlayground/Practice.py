@@ -1,6 +1,6 @@
 import unittest
 class TestingPython(unittest.TestCase):
-    print("This is a practice file");
+    print("This is a practice file")
 
     def test_palindrome(self):
         word = "aaa"
