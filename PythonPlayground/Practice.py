@@ -23,6 +23,14 @@ class TestingPython(unittest.TestCase):
             print(c, end=' ')
             a = b
             b = c
-     #*****************************************
+#**********************************************
+print("test of fibanacci recusive")
+
+
+#***********************************************
+print("find largest!!!")
+a = {3,66,4,65,2,3,54,8,5,76,444,6,7,8}
+print(a)
+
 
 
