@@ -2,7 +2,9 @@ import unittest
 class TestingPython(unittest.TestCase):
     print("This is a practice file")
 
+
     def test_palindrome(self):
+       # print("Testing for palindone")
         word = "aaa"
         back = "aa"
         if word == back:
@@ -15,11 +17,12 @@ class TestingPython(unittest.TestCase):
     def test_fibinacci(self):
         a = 0
         b = 1
-        for i in range(0, 5):
+        for i in range(0, 10):
            #print("fibinacci sequence- line 16  IT WORKED i!!!", i);
             c = a + b
             print(c, end=' ')
             a = b
             b = c
+     #*****************************************
 
 
