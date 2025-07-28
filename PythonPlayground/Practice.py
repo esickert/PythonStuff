@@ -12,5 +12,14 @@ class TestingPython(unittest.TestCase):
             print("\nThis is NOT A PALINDROME")
 #  end of test_palindrome
 #**********************************************
-    for i in range(1, 11):
-        print("fibinacci sequence- line 16  IT WORKED i!!!", i);
+    def test_fibinacci(self):
+        a = 0
+        b = 1
+        for i in range(0, 5):
+           #print("fibinacci sequence- line 16  IT WORKED i!!!", i);
+            c = a + b
+            print(c, end=' ')
+            a = b
+            b = c
+
+
