@@ -1,6 +1,6 @@
 import unittest
 class TestingPython(unittest.TestCase):
-    print("This is a practice file/test")
+    print("This is a practice file/test of python unit test")
 
     def test_palindrome(self):
        # print("Testing for palindone")
@@ -23,8 +23,10 @@ class TestingPython(unittest.TestCase):
             a = b
             b = c
 #**********************************************
-print("test of fibanacci recusive")
-
+    def test_fibrecusive(self):
+        print("test of fibanacci recusive")
+        for i in range(1, 6):
+            print("hellofibinacci sequence- line IT WORKED i!!!", i);
 """
 public void fibRec()  {
     for(int i = 0; i <= 10; i++) {
