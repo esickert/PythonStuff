@@ -12,7 +12,7 @@ class TestingPython(unittest.TestCase):
         else:
             print("\nThis is NOT A PALINDROME")
 #  end of test_palindrome
-#**********************************************
+#*********************************************
     def test_fibinacci(self):
         a = 0
         b = 1
@@ -25,44 +25,7 @@ class TestingPython(unittest.TestCase):
 #**********************************************
     def test_fibrecusive(self):
         print("test of fibanacci recusive")
-        print()
-        for i in range(1, 6):
-            print("hellofibinacci sequence- line IT WORKED i!!!", i);
-"""
+        n = 5;
 
-THIS IS JAVA!!!!!
-    public void fibRec()  {
-    for(int i = 0; i <= 10; i++) {
-      System.out.print(" " + recursive(i));
-    }
-    System.out.println("\n")
-    def recursiveFib(x):
-        elif x = 0 or x = 1
-            retune x
-         else
-            
-  }
-  public int recursive(int x)  {
-      if ((x == 0) || (x == 1))
-        return x;
-      else  {
-        return (recursive(x-1) + recursive(x-2));
-
-"""
-
-#***********************************************
-print("find largest!!!")
-a = {3,66,4,65,2,3,54,8,5,76,444,6,7,8}
-print(a)
-
-"""
-int[] a = {3,66,4,65,2,3,54,8,5,76,444,6,7,8};
-    int temp = 0;
-    for(int i = 0; i < a.length -1; i++)  {
-      if (temp < a[i])
-        temp = a[i];
-    }
-    System.out.println("The largest is " + temp);
-"""
 
 
