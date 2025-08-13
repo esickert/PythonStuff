@@ -22,7 +22,7 @@ class TestingPython(unittest.TestCase):
             print(c, end=' ')
             a = b
             b = c
-#*******************************************
+#******************************************
     def test_fibrecusive(self):
         print("test of fibanacci recusive")
         n = 5;
