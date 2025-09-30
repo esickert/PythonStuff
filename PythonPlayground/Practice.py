@@ -23,10 +23,34 @@ class TestingPython(unittest.TestCase):
             a = b
             b = c
 #******************************************
-    def test_fibrecusive(self):
+print("TESTING GGGGGGGG  !!!!! line 26")
+"""
+ @Test
+  public void fibRec()  {
+    for(int i = 0; i <= 10; i++) {
+      System.out.print(" " + recursive(i));
+    }
+    System.out.println("\n");
+  }
+  public int recursive(int x)  {
+      if ((x == 0) || (x == 1))
+        return x;
+      else  {
+        return (recursive(x-1) + recursive(x-2));
+      }
+  }
+  //*******************************************************
+
+print("TESTING GGGGGGGG  !!!!! line 43")
+
+    def test_fibrecusive(n):
         print("test of fibanacci recusive")
         n = 5
-        print("!!!!!!!!!!!!", n)
+        for i in range(0, n):
+            print("!!!!!!!!!!!!", i)
+# This doesnt work!~!!!!!!!!
+    test_fibrecusive(5)
+"""
 
 
 
