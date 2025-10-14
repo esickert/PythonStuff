@@ -6,7 +6,7 @@ def recur_fibo(n):
    else:
        return(recur_fibo(n-1) + recur_fibo(n-2))
 
-nterms = 11
+nterms = 11    
 
 # check if the number of terms is valid
 if nterms <= 0:
