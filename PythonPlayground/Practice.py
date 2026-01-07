@@ -30,7 +30,7 @@ class TestingPython(unittest.TestCase):
             print(c, end=' ')
             a = b
             b = c
-#*********************************
+#********************************
 print("TESTING GGGGGGGG  !!!!! line 26")
 """
  @Test
